@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>快乐搞磕盐</title>
-  
+  <icon>https://www.gravatar.com/avatar/056d0388a87877687ff48b9e7828847c</icon>
   <subtitle>生活明朗，万物可爱</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://cns-fff.github.io/project/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://cns-fff.github.io/project/"/>
   <updated>2024-04-04T06:40:56.092Z</updated>
-  <id>http://example.com/</id>
+  <id>https://cns-fff.github.io/project/</id>
   
   <author>
     <name>Qiyu</name>
-    
+    <email>qiyu.ya@qq.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/4a17b156.html"/>
-    <id>http://example.com/posts/4a17b156.html</id>
+    <link href="https://cns-fff.github.io/project/posts/4a17b156.html"/>
+    <id>https://cns-fff.github.io/project/posts/4a17b156.html</id>
     <published>2024-04-03T13:40:36.005Z</published>
     <updated>2024-04-04T06:40:56.092Z</updated>
     
