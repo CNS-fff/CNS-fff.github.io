@@ -6,7 +6,7 @@
   <link href="https://blog.qiyu.best/atom.xml" rel="self"/>
   
   <link href="https://blog.qiyu.best/"/>
-  <updated>2024-04-18T11:49:29.838Z</updated>
+  <updated>2024-04-18T11:57:56.919Z</updated>
   <id>https://blog.qiyu.best/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="https://blog.qiyu.best/posts/4a17b156.html"/>
     <id>https://blog.qiyu.best/posts/4a17b156.html</id>
-    <published>2024-04-18T11:49:29.838Z</published>
-    <updated>2024-04-18T11:49:29.838Z</updated>
+    <published>2024-04-18T11:57:56.919Z</published>
+    <updated>2024-04-18T11:57:56.919Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start">Quick Start</h2><h3 id="Create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -45,7 +45,7 @@
     <link href="https://blog.qiyu.best/posts/9ff79b23.html"/>
     <id>https://blog.qiyu.best/posts/9ff79b23.html</id>
     <published>2024-04-06T20:24:10.000Z</published>
-    <updated>2024-04-18T11:49:29.838Z</updated>
+    <updated>2024-04-18T11:57:56.919Z</updated>
     
     <content type="html"><![CDATA[<pre><code>一名计算物理的博士生--曾从事于水合物断裂力学方面的研究，具有一定的MS、LAMMPS等相关模拟技术；--目前主要从事无机晶体非晶热输运的理论研究，针对VASP、GPUMD等相关的机器学习分子动力学较为熟悉；建设这个网站的目的，主要是为了记录科研过程中的方法与知识。欢迎各位同行前来分享交流，    PS. 本人也可在业余时间进行相关代算，具体可私信（网站右下角）或留言细聊。</code></pre><!-- 这是一个bilibili视频适配，只需要将aid改为相应的视频ID，然后直接复制插入到相应的md文章即可   具体的适配器样式设计可在custom.css里面修改。--><!-- <div align="center" class="aspect-ratio">  <iframe    src="https://player.bilibili.com/player.html?aid=556933559&&page=1&as_wide=1&high_quality=1&danmaku=0"    scrolling="no"    border="0"    frameborder="no"    framespacing="0"    high_quality="1"    danmaku="1"    allowfullscreen="true"  ></iframe></div> -->]]></content>
     
