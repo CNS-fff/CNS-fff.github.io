@@ -6,7 +6,7 @@
   <link href="https://blog.qiyu.best/atom.xml" rel="self"/>
   
   <link href="https://blog.qiyu.best/"/>
-  <updated>2024-04-23T08:12:47.427Z</updated>
+  <updated>2024-04-24T09:02:17.528Z</updated>
   <id>https://blog.qiyu.best/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="https://blog.qiyu.best/posts/4a17b156.html"/>
     <id>https://blog.qiyu.best/posts/4a17b156.html</id>
-    <published>2024-04-23T08:12:47.427Z</published>
-    <updated>2024-04-23T08:12:47.427Z</updated>
+    <published>2024-04-24T09:02:17.528Z</published>
+    <updated>2024-04-24T09:02:17.528Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start">Quick Start</h2><h3 id="Create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -44,10 +44,10 @@
     <title>网站转移</title>
     <link href="https://blog.qiyu.best/posts/2a2badb4.html"/>
     <id>https://blog.qiyu.best/posts/2a2badb4.html</id>
-    <published>2024-04-23T08:12:47.427Z</published>
-    <updated>2024-04-23T08:12:47.427Z</updated>
+    <published>2024-04-24T09:02:17.528Z</published>
+    <updated>2024-04-24T09:02:17.528Z</updated>
     
-    <content type="html"><![CDATA[<p>欢迎各位来到这里，<br>这里是一个分享思想、探索科研的小天地。建设这个网站的目的是分享我对计算物理方面的经验笔记。无论是理论知识、实际操作，还是留言讨论，我都希望能够通过文字与您建立真诚的交流和分享。</p><h2 id="导航指引">导航指引</h2><p>由于一些客观原因，发现此网站无法承担当初的建站宗旨。因此，相关博文将更改到以下所示的两个网站更新：</p><h3 id="网址">网址</h3><p>目前正在ICP及公安网备案中，稍后即可访问。</p><p><a href="https://research.qiyu.ltd/">开心肝轮纹</a></p><p><a href="https://physics.qiyu.ltd/">就爱做计算</a></p><h3 id="变更原因">变更原因</h3><p>1、由于此网站是静态博客，不仅管理员与用户之间的交互功能较差，而且随着内容的增多和网站的完善，加载将会越来越慢；<br>2、此网站基于海外域名且托管到github平台，尽管我已通过vercel进行加速，但访问速度仍然是受限的，而且随时可能被封禁；<br>3、github只提供1G大小的仓库，难以满足文字、图片、视频等多媒体博文的需要；<br>4、这一条属于我个人的一点点原因，由于此网站是纯前端的静态网页，每篇博文的书写都要采用MD文件格式，然后再部署到网站，较为麻烦。因此，又建立了上述两个有后台管理的网站，便于日常更新、管理和维护。</p>]]></content>
+    <content type="html"><![CDATA[<p>欢迎各位来到这里，<br>这里是一个分享思想、探索科研的小天地。建设这个网站的目的是分享我对计算物理方面的经验笔记。无论是理论知识、实际操作，还是留言讨论，我都希望能够通过文字与您建立真诚的交流和分享。</p><h2 id="导航指引">导航指引</h2><p>由于一些客观原因，发现此网站无法承担当初的建站宗旨。因此，相关博文将更改到以下所示的两个网站更新：</p><h3 id="网址">网址</h3><p>目前正在ICP及公安网备案中，稍后即可访问。</p><p><a href="https://research.qiyu.ltd/">开心肝轮纹</a></p><p><a href="https://physics.qiyu.ltd/">就爱做计算</a></p><h3 id="变更原因">变更原因</h3><p>1、由于此网站是静态博客，不仅管理员与用户之间的交互功能较差，而且随着内容的增多和网站的完善，加载将会越来越慢；<br>2、此网站基于海外域名且托管到github平台，尽管我已通过vercel进行加速，但访问速度仍然是受限的；<br>3、github只提供1G大小的仓库，难以满足文字、图片、视频等多媒体博文的需要；<br>4、这一条属于我个人的一点点原因，由于此网站是纯前端的静态网页，每篇博文的书写都要采用MD文件格式，然后再部署到网站，较为麻烦。因此，又建立了上述两个有后台管理的网站，便于日常更新、管理和维护。</p>]]></content>
     
     
     <summary type="html">网站使用重要说明</summary>
@@ -66,7 +66,7 @@
     <link href="https://blog.qiyu.best/posts/9ff79b23.html"/>
     <id>https://blog.qiyu.best/posts/9ff79b23.html</id>
     <published>2024-04-06T20:24:10.000Z</published>
-    <updated>2024-04-23T08:12:47.427Z</updated>
+    <updated>2024-04-24T09:02:17.528Z</updated>
     
     <content type="html"><![CDATA[<pre><code>一名计算物理的博士生--曾从事于水合物断裂力学方面的研究，具有一定的MS、LAMMPS等相关模拟技术；--目前主要从事无机晶体非晶热输运的理论研究，针对VASP、GPUMD等相关的机器学习分子动力学较为熟悉；建设这个网站的目的，主要是为了记录科研过程中的方法与知识。欢迎各位同行前来分享交流，    PS. 本人也可在业余时间进行相关代算，具体可私信（网站右下角）或留言细聊。</code></pre><!-- 这是一个bilibili视频适配，只需要将aid改为相应的视频ID，然后直接复制插入到相应的md文章即可   具体的适配器样式设计可在custom.css里面修改。--><!-- <div align="center" class="aspect-ratio">  <iframe    src="https://player.bilibili.com/player.html?aid=556933559&&page=1&as_wide=1&high_quality=1&danmaku=0"    scrolling="no"    border="0"    frameborder="no"    framespacing="0"    high_quality="1"    danmaku="1"    allowfullscreen="true"  ></iframe></div> -->]]></content>
     
