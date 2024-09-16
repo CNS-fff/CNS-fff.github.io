@@ -46,9 +46,9 @@
     <link href="https://blog.qiyu.best/posts/2a2badb4.html"/>
     <id>https://blog.qiyu.best/posts/2a2badb4.html</id>
     <published>2024-04-22T09:47:07.000Z</published>
-    <updated>2024-09-16T13:23:04.873Z</updated>
+    <updated>2024-09-16T13:26:06.235Z</updated>
     
-    <content type="html"><![CDATA[<p>欢迎来到这里，<br>这里是一个分享思想、探索科研的小天地。建设这个网站的目的是分享我对计算物理方面的经验笔记。无论是理论知识、实际操作，还是留言讨论，我都希望能够通过文字与您建立真诚的交流和分享。</p><h2 id="导航指引">导航指引</h2><p>由于一些客观原因，发现此网站无法承担当初的建站宗旨。因此，相关博文将更改到以下所示的两个网站更新：</p><h3 id="网址">网址</h3><p>交互式网站的ICP与公安网备案较为麻烦，目前网站仅开放了基本功能。后期若有需要，会申请增加网站交互性。网站链接：</p><p><a href="https://research.qiyu.ltd/">开心肝轮纹</a></p><p><a href="https://physics.qiyu.ltd/">就爱做计算</a></p><h3 id="变更原因">变更原因</h3><p>1、github只提供1G大小的仓库，难以满足文字、图片、视频等多媒体博文的需要；<br>2、此网站基于海外域名且托管到github平台，尽管我已通过vercel进行加速，但访问速度仍然是受限的；<br>3、此网站是静态博客，不仅与用户之间的交互功能较差，而且随着内容的增多和网站的完善，也会拖慢加载速度；<br>4、此网站是纯前端的静态网页，每篇博文的书写都要采用MD文件格式，然后再部署到网站，较为麻烦。因此，又建立了上述两个有后台管理的网站，便于日常更新、管理和维护。</p>]]></content>
+    <content type="html"><![CDATA[<p>欢迎各位来到这里，<br>这里是一个分享思想、探索科研的小天地。建设这个网站的目的是分享我对计算物理方面的经验笔记。无论是理论知识、实际操作，还是留言讨论，我都希望能够通过文字与您建立真诚的交流和分享。</p><h2 id="导航指引">导航指引</h2><p>由于一些客观原因，发现此网站无法承担当初的建站宗旨。因此，相关博文将更改到以下所示的两个网站更新：</p><h3 id="网址">网址</h3><p>交互式网站的ICP与公安网备案较为麻烦，目前网站仅开放了基本功能。后期若有需要，会申请增加网站交互性。网站链接：</p><p><a href="https://research.qiyu.ltd/">开心肝轮纹</a></p><p><a href="https://physics.qiyu.ltd/">就爱做计算</a></p><h3 id="变更原因">变更原因</h3><p>1、github只提供1G大小的仓库，难以满足文字、图片、视频等多媒体博文的需要；<br>2、此网站基于海外域名且托管到github平台，尽管我已通过vercel进行加速，但访问速度仍然是受限的；<br>3、此网站是静态博客，不仅与用户之间的交互功能较差，而且随着内容的增多和网站的完善，也会拖慢加载速度；<br>4、此网站是纯前端的静态网页，每篇博文的书写都要采用MD文件格式，然后再部署到网站，较为麻烦。因此，又建立了上述两个有后台管理的网站，便于日常更新、管理和维护。</p>]]></content>
     
     
     <summary type="html">网站使用重要说明</summary>
@@ -67,7 +67,7 @@
     <link href="https://blog.qiyu.best/posts/9ff79b23.html"/>
     <id>https://blog.qiyu.best/posts/9ff79b23.html</id>
     <published>2024-04-06T20:24:10.000Z</published>
-    <updated>2024-09-16T13:23:04.873Z</updated>
+    <updated>2024-09-16T13:26:06.235Z</updated>
     
     <content type="html"><![CDATA[<h2 id="博主简介">博主简介</h2><p>博主是一名计算物理的博士生<br>–曾从事于水合物断裂力学方面的研究，具有一定的MS、LAMMPS等相关模拟技术；<br>–目前主要从事无机晶体非晶热输运的理论研究，针对VASP、GPUMD等相关的机器学习分子动力学较为熟悉；</p><p>PS. 本人可在业余时间进行相关代算，具体可私信（网站右下角）或留言细聊。</p><!-- 这是一个bilibili视频适配，只需要将aid改为相应的视频ID，然后直接复制插入到相应的md文章即可   具体的适配器样式设计可在custom.css里面修改。--><!-- <div align="center" class="aspect-ratio">  <iframe    src="https://player.bilibili.com/player.html?aid=556933559&&page=1&as_wide=1&high_quality=1&danmaku=0"    scrolling="no"    border="0"    frameborder="no"    framespacing="0"    high_quality="1"    danmaku="1"    allowfullscreen="true"  ></iframe></div> -->]]></content>
     
