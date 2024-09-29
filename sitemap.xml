@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://blog.qiyu.best/tags/index.html</loc>
-    
-    <lastmod>2024-09-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.qiyu.best/link/index.html</loc>
     
     <lastmod>2024-09-29</lastmod>
@@ -29,7 +20,25 @@
   </url>
   
   <url>
+    <loc>https://blog.qiyu.best/tags/index.html</loc>
+    
+    <lastmod>2024-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.qiyu.best/baidu_verify_codeva-IJ8NLl4eiw.html</loc>
+    
+    <lastmod>2024-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.qiyu.best/about/index.html</loc>
     
     <lastmod>2024-09-29</lastmod>
     
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://blog.qiyu.best/posts/33bc710d.html</loc>
-    
-    <lastmod>2024-09-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.qiyu.best/about/index.html</loc>
     
     <lastmod>2024-09-29</lastmod>
     
