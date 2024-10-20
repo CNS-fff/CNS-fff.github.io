@@ -6,7 +6,7 @@
   <link href="https://blog.qiyu.best/atom.xml" rel="self"/>
   
   <link href="https://blog.qiyu.best/"/>
-  <updated>2024-10-01T22:30:00.000Z</updated>
+  <updated>2024-10-02T06:30:00.000Z</updated>
   <id>https://blog.qiyu.best/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>博主文章汇总</title>
     <link href="https://blog.qiyu.best/posts/da9ad112.html"/>
     <id>https://blog.qiyu.best/posts/da9ad112.html</id>
-    <published>2024-09-25T12:46:06.000Z</published>
-    <updated>2024-10-01T22:30:00.000Z</updated>
+    <published>2024-09-25T20:46:06.000Z</published>
+    <updated>2024-10-02T06:30:00.000Z</updated>
     
     <content type="html"><![CDATA[<p>由于本博客所托管的github是国外的站点，在存储空间有限之外，网站速度也受到限制，对于图片的加载达到 10 s 以上，因此对于含有插图的博文十分不友好。针对这一问题，博主将会分类发布文章：纯文字的博文将会在所有网站发布；而含有插图的文章将主要发布在<a href="https://research.qiyu.ltd/">开心肝轮纹</a>和<a href="https://physics.qiyu.ltd/">就爱做机算</a>上。同时，会在下面列出相应的文章链接，便于跳转（更新可能会有延迟，更建议直接跳转对应网站，检索所需博文）。若有兴趣也可以关注知乎、CSDN和公众号等平台（同名：就爱做机算）。</p><h3 id="快乐搞磕盐"><a href="https://blog.qiyu.best/">快乐搞磕盐</a></h3><ol><li><a href="https://blog.qiyu.best/posts/54e30a2b.html">为什么用VASP计算时，系统的能量用静态计算输出的能量而不是结构优化时输出的能量？</a></li></ol><h3 id="开心肝轮纹"><a href="https://research.qiyu.ltd/">开心肝轮纹</a></h3><ol><li><a href="https://research.qiyu.ltd/theory/320/">为什么用VASP计算时，系统的能量用静态计算输出的能量而不是结构优化时输出的能量？</a></li><li><a href="https://research.qiyu.ltd/theory/319/">CDW的费米面嵌套解释</a></li><li><a href="https://research.qiyu.ltd/uncategorized/335/">kswapd0进程CPU占用过高</a></li></ol><h3 id="就爱做机算"><a href="https://physics.qiyu.ltd/">就爱做机算</a></h3><ol><li><a href="https://physics.qiyu.ltd/?vasp/22.html">为什么用VASP计算时，系统的能量用静态计算输出的能量而不是结构优化时输出的能量？</a></li><li><a href="https://physics.qiyu.ltd/?solid-state-physics/29.html">CDW的费米面嵌套解释</a></li><li><a href="https://physics.qiyu.ltd/?system/30.html">kswapd0进程CPU占用过高</a></li></ol><h3 id="相关网站">相关网站</h3><p>以下是一些物理方面较好的学习网站推荐：</p><p><a href="https://phyx.readthedocs.io/en/latest/index.html#">1. Notes on Physics — Physics 0.1 documentation (phyx.readthedocs.io)</a><br><a href="https://www.mpg.de/en">2. Homepage - Max Planck Society (mpg.de)</a></p>]]></content>
     
@@ -41,8 +41,8 @@
     <title>为什么用VASP计算时，系统的能量用静态计算输出的能量而不是结构优化时输出的能量？</title>
     <link href="https://blog.qiyu.best/posts/54e30a2b.html"/>
     <id>https://blog.qiyu.best/posts/54e30a2b.html</id>
-    <published>2024-06-17T13:53:27.000Z</published>
-    <updated>2024-06-17T13:53:27.000Z</updated>
+    <published>2024-06-17T21:53:27.000Z</published>
+    <updated>2024-06-17T21:53:27.000Z</updated>
     
     <content type="html"><![CDATA[<p>系统的能量用静态计算输出的能量而不是结构优化时输出的能量主要是因为：结构优化时，平面波的展开数量并不会随着晶格参数的变化而变化，因此计算的能量并不是特别准确的。</p><p>在结构优化时，晶胞的大小是会改变的，这可能导致K点也会发生变化。然而，在优化时，K点是根据优化前的晶胞设置好的，并不会改变。因而对于优化后的结构来说，一定程度上是不准确的。K点与平面波的展开数量是有关的。首先，截断能ENCUT决定了平面波基组的上限，即所有平面波能量满足：</p><p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mrow><mo fence="true">∣</mo><mi mathvariant="bold">G</mi><mo>+</mo><mi mathvariant="bold">k</mi><mo fence="true">∣</mo></mrow><mo>&lt;</mo><msub><mi>G</mi><mtext>cut</mtext></msub><mspace width="1em"/><mtext>with</mtext><mspace width="1em"/><msub><mi>E</mi><mtext>cut</mtext></msub><mo>=</mo><mfrac><msup><mi mathvariant="normal">ℏ</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi></mrow></mfrac><msubsup><mi>G</mi><mtext>cut</mtext><mn>2</mn></msubsup></mrow><annotation encoding="application/x-tex">\left| \mathbf{G} + \mathbf{k} \right| &lt; G_{\text{cut}} \quad \text{with} \quad E_{\text{cut}} = \frac{\hbar^2}{2m} G_{\text{cut}}^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">∣</span><span class="mord mathbf">G</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathbf">k</span><span class="mclose delimcenter" style="top:0em;">∣</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">cut</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:1em;"></span><span class="mord text"><span class="mord">with</span></span><span class="mspace" style="margin-right:1em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">cut</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.1771em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.4911em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord mathnormal">m</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord">ℏ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathnormal">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8641em;"><span style="top:-2.453em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">cut</span></span></span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></span></p><p>其次，对于不同的K点，满足条件的平面波 <em><strong>G</strong></em> 的集合是不同的。</p><p>综上，优化前后，晶胞对应的K点是不同的，从而其平面波展开基组也是有不同的，最后得出的能量有所不同。</p>]]></content>
     
@@ -66,8 +66,8 @@
     <title>网站转移</title>
     <link href="https://blog.qiyu.best/posts/2a2badb4.html"/>
     <id>https://blog.qiyu.best/posts/2a2badb4.html</id>
-    <published>2024-04-22T01:47:07.000Z</published>
-    <updated>2024-04-22T01:47:07.000Z</updated>
+    <published>2024-04-22T09:47:07.000Z</published>
+    <updated>2024-04-22T09:47:07.000Z</updated>
     
     <content type="html"><![CDATA[<p>欢迎各位来到这里，<br>这里是一个分享思想、探索科研的小天地。建设这个网站的目的是分享我对计算物理方面的经验笔记。无论是理论知识、实际操作，还是留言讨论，我都希望能够通过文字与您建立真诚的交流和分享。</p><h2 id="导航指引">导航指引</h2><p>由于一些客观原因，发现此网站无法承担当初的建站宗旨。因此，相关博文将更改到以下所示的两个网站更新：</p><h3 id="网址">网址</h3><p>交互式网站的ICP与公安网备案较为麻烦，目前网站仅开放了基本功能。后期若有需要，会申请增加网站交互性。网站链接：</p><p><a href="https://research.qiyu.ltd/">开心肝轮纹</a></p><p><a href="https://physics.qiyu.ltd/">就爱做计算</a></p><h3 id="变更原因">变更原因</h3><p>1、github只提供1G大小的仓库，难以满足文字、图片、视频等多媒体博文的需要；<br>2、此网站基于海外域名且托管到github平台，尽管我已通过vercel进行加速，但访问速度仍然是受限的；<br>3、此网站是静态博客，不仅与用户之间的交互功能较差，而且随着内容的增多和网站的完善，也会拖慢加载速度；<br>4、此网站是纯前端的静态网页，每篇博文的书写都要采用MD文件格式，然后再部署到网站，较为麻烦。因此，又建立了上述两个有后台管理的网站，便于日常更新、管理和维护。</p>]]></content>
     
@@ -87,8 +87,8 @@
     <title>关于我</title>
     <link href="https://blog.qiyu.best/posts/9ff79b23.html"/>
     <id>https://blog.qiyu.best/posts/9ff79b23.html</id>
-    <published>2024-04-06T12:24:10.000Z</published>
-    <updated>2024-04-06T12:24:10.000Z</updated>
+    <published>2024-04-06T20:24:10.000Z</published>
+    <updated>2024-04-06T20:24:10.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="博主简介">博主简介</h2><p>博主是一名计算物理的博士生<br>–曾从事于水合物断裂力学方面的研究，具有一定的MS、LAMMPS等相关模拟技术；<br>–目前主要从事无机晶体非晶热输运的理论研究，针对VASP、GPUMD等相关的机器学习分子动力学较为熟悉；</p><p>PS. 本人可在业余时间进行相关代算，具体可私信（网站右下角）或留言细聊。</p><!-- 这是一个bilibili视频适配，只需要将aid改为相应的视频ID，然后直接复制插入到相应的md文章即可   具体的适配器样式设计可在custom.css里面修改。--><!-- <div align="center" class="aspect-ratio">  <iframe    src="https://player.bilibili.com/player.html?aid=556933559&&page=1&as_wide=1&high_quality=1&danmaku=0"    scrolling="no"    border="0"    frameborder="no"    framespacing="0"    high_quality="1"    danmaku="1"    allowfullscreen="true"  ></iframe></div> -->]]></content>
     
@@ -114,8 +114,8 @@
     <title>Hello World</title>
     <link href="https://blog.qiyu.best/posts/4a17b156.html"/>
     <id>https://blog.qiyu.best/posts/4a17b156.html</id>
-    <published>2024-04-03T13:40:36.000Z</published>
-    <updated>2024-04-03T13:40:36.000Z</updated>
+    <published>2024-04-03T21:40:36.000Z</published>
+    <updated>2024-04-03T21:40:36.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start">Quick Start</h2><h3 id="Create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
