@@ -6,7 +6,7 @@
   <link href="https://blog.qiyu.best/atom.xml" rel="self"/>
   
   <link href="https://blog.qiyu.best/"/>
-  <updated>2024-10-02T06:30:00.000Z</updated>
+  <updated>2024-10-10T20:30:00.000Z</updated>
   <id>https://blog.qiyu.best/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.qiyu.best/posts/da9ad112.html"/>
     <id>https://blog.qiyu.best/posts/da9ad112.html</id>
     <published>2024-09-25T20:46:06.000Z</published>
-    <updated>2024-10-02T06:30:00.000Z</updated>
+    <updated>2024-10-10T20:30:00.000Z</updated>
     
     <content type="html"><![CDATA[<p>由于本博客所托管的github是国外的站点，在存储空间有限之外，网站速度也受到限制，对于图片的加载达到 10 s 以上，因此对于含有插图的博文十分不友好。针对这一问题，博主将会分类发布文章：纯文字的博文将会在所有网站发布；而含有插图的文章将主要发布在<a href="https://research.qiyu.ltd/">开心肝轮纹</a>和<a href="https://physics.qiyu.ltd/">就爱做机算</a>上。同时，会在下面列出相应的文章链接，便于跳转（更新可能会有延迟，更建议直接跳转对应网站，检索所需博文）。若有兴趣也可以关注知乎、CSDN和公众号等平台（同名：就爱做机算）。</p><h3 id="快乐搞磕盐"><a href="https://blog.qiyu.best/">快乐搞磕盐</a></h3><ol><li><a href="https://blog.qiyu.best/posts/54e30a2b.html">为什么用VASP计算时，系统的能量用静态计算输出的能量而不是结构优化时输出的能量？</a></li></ol><h3 id="开心肝轮纹"><a href="https://research.qiyu.ltd/">开心肝轮纹</a></h3><ol><li><a href="https://research.qiyu.ltd/theory/320/">为什么用VASP计算时，系统的能量用静态计算输出的能量而不是结构优化时输出的能量？</a></li><li><a href="https://research.qiyu.ltd/theory/319/">CDW的费米面嵌套解释</a></li><li><a href="https://research.qiyu.ltd/uncategorized/335/">kswapd0进程CPU占用过高</a></li></ol><h3 id="就爱做机算"><a href="https://physics.qiyu.ltd/">就爱做机算</a></h3><ol><li><a href="https://physics.qiyu.ltd/?vasp/22.html">为什么用VASP计算时，系统的能量用静态计算输出的能量而不是结构优化时输出的能量？</a></li><li><a href="https://physics.qiyu.ltd/?solid-state-physics/29.html">CDW的费米面嵌套解释</a></li><li><a href="https://physics.qiyu.ltd/?system/30.html">kswapd0进程CPU占用过高</a></li></ol><h3 id="相关网站">相关网站</h3><p>以下是一些物理方面较好的学习网站推荐：</p><p><a href="https://phyx.readthedocs.io/en/latest/index.html#">1. Notes on Physics — Physics 0.1 documentation (phyx.readthedocs.io)</a><br><a href="https://www.mpg.de/en">2. Homepage - Max Planck Society (mpg.de)</a></p>]]></content>
     
